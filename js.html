@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input id="f" value="0" type="number">
+    <button type="submit" onclick="work()">hi</button>
+
+    <script>
+       function work(){
+        var age = document.getElementById("f").value;
+        
+        var voteable = (age < 18)?"Too young": "Old enough";
+        alert(voteable);
+        
+       }
+    </script>
+</body>
+</html>
